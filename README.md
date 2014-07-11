@@ -15,7 +15,8 @@ Live demo: http://balbuf.com/photobooth/
 ## Future Improvements
 
 - Changing of numeric defaults: # of snapshots, duration of snapshot countdown.
-- Client-side image processing/rendering to eliminate the need for an active internet connection and provide faster image compiling.
+- Client-side image processing/rendering to eliminate the need for an active internet connection and provide faster image compiling. An active internet connection would still be required to permanently save photostrips and allow reprinting from a remote kiosk.
 - Custom filters using pixel-manipulation functions.
 - More dynamic/attractive interface.
 - Mouse interaction, especially to cater to touchscreen interfaces.
+- Camera-only or Reprint-only modes to allow separate kiosks at an event.
