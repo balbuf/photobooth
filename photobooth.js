@@ -58,7 +58,7 @@ var PhotoBooth = (function($) {
 		$("#snapping").show();
 		num = -1;
 		timeRef = new Date();
-		snap = setInterval(snapping, 100);
+		snapInt = setInterval(snapping, 100);
 	}
 
 	//snap at appropriate times
@@ -75,7 +75,7 @@ var PhotoBooth = (function($) {
 		}
 		//4th snapshot done
 		if (num==3) {
-			window.clearInterval(snap);
+			window.clearInterval(snapInt);
 			$("#snapping").hide();
 			isSnapping = false;
 			sendPics();
