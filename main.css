@@ -39,7 +39,7 @@ body {
 	overflow: hidden;
 }
 #flash {
-	background-color: white;
+	background-color: #FFFFFF;
 	z-index: 5;
 }
 #snapping {
